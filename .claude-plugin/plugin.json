@@ -1,1 +1,0 @@
-{ "name": "git-diff", "version": "0.3.0", "description": "/git-diff [branch|worktree|dir]: git diff in a side pane", "types": "./types/index.d.ts" }

@@ -1,5 +1,12 @@
 {
-  "name": "claude-git-diff",
+  "name": "daxium",
   "owner": { "name": "Daxium" },
-  "plugins": [{ "name": "git-diff", "source": "./" }]
+  "description": "Daxium's public Claude Code plugins: mods, skills, agents, commands.",
+  "plugins": [
+    {
+      "name": "git-diff",
+      "source": "./git-diff",
+      "description": "/git-diff [branch|worktree|dir]: git diff in a side pane"
+    }
+  ]
 }

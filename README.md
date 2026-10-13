@@ -1,13 +1,42 @@
-# git-diff
+# Daxium Claude Code plugins
 
-Claude Code mod: `/git-diff [branch|worktree|dir]` opens the git diff in a side pane.
+Public Claude Code marketplace: mods, skills, agents, commands.
 
 ## Install
 
-In a Claude Code terminal session:
+One step, in a Claude Code terminal session (2.1.275+):
 
 ```
-/plugin install git-diff --marketplace daxium/claude-git-diff
+/plugin install <plugin> --marketplace daxium/claude-plugins
 ```
 
-Answer `y` to add the marketplace, then pick the user scope.
+Or add the marketplace once:
+
+```
+/plugin marketplace add daxium/claude-plugins
+```
+
+Then, per plugin:
+
+```
+/plugin install <plugin>@daxium
+```
+
+Get new plugins and versions: `/plugin marketplace update daxium`.
+
+## Plugins
+
+| Plugin | What it does |
+| --- | --- |
+| [git-diff](git-diff) | `/git-diff [branch\|worktree\|dir]`: git diff in a side pane |
+
+```
+/plugin install git-diff --marketplace daxium/claude-plugins
+```
+
+## Adding a plugin
+
+1. Put it in its own folder: `<plugin>/.claude-plugin/plugin.json` and its parts.
+2. List it in `.claude-plugin/marketplace.json` and in the table above.
+3. `claude plugin validate .` and `claude plugin validate <plugin>`; `claude plugin test <plugin>` for a mod.
+4. This repo is public: no client data, internal URLs, ticket keys or hardcoded paths.

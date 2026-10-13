@@ -1,0 +1,5 @@
+{
+  "name": "claude-git-diff",
+  "owner": { "name": "Daxium" },
+  "plugins": [{ "name": "git-diff", "source": "./" }]
+}

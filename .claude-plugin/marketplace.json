@@ -1,5 +1,5 @@
 {
-  "name": "daxium",
+  "name": "daxium-public",
   "owner": { "name": "Daxium" },
   "description": "Daxium's public Claude Code plugins: mods, skills, agents, commands.",
   "plugins": [

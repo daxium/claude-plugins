@@ -19,10 +19,10 @@ Or add the marketplace once:
 Then, per plugin:
 
 ```
-/plugin install <plugin>@daxium
+/plugin install <plugin>@daxium-public
 ```
 
-Get new plugins and versions: `/plugin marketplace update daxium`.
+Get new plugins and versions: `/plugin marketplace update daxium-public`.
 
 ## Plugins
 
